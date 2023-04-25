@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2a40d385-c689-48e3-be18-e11a527bc1f1" name="Changes" comment="1.0">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/OrderBeatsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/common/JacksonObjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/common/MyMetaObjecthandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/common/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/common/baseContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/common/customException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/config/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/controller/DishController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/controller/SetmealController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/controller/uploadAndDownloadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/dto/SetmealDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/entity/AddressBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/entity/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/entity/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/entity/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/entity/Setmeal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/entity/SetmealDish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/entity/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/filter/LoginCheckFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/mapper/DishMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/mapper/SetmealDishMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/mapper/SetmealMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/service/DishService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/service/SetmealDishService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/service/SetmealService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/service/impl/DishServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/service/impl/SetmealDishServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/angus/orderBeats/service/impl/SetmealServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/combo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/food.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/member.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/404-images/404-cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/404-images/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/btn_back@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/btn_clean@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/btn_close@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/icon_index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/icon_upload@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/jine_m-2@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/renshu@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/xiangmujine@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/img_denglu_bj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/login/login-l.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/login/login-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/login/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/js/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/js/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/category/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/combo/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/combo/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/demo/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/food/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/food/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/login/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/member/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/member/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/order/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/axios/axios.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/element-ui/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/element-ui/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/element-ui/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/element-ui/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/vue/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/demo_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/page.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../JAVA/maven/apache-maven-3.8.6" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Of8C4YfhfmOUyfWqUOb4bkWqSU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Concordia-bootcamps/OrderBeats/orderBeatsTakeaway/src/main/java/com/angus/orderBeats/service/impl&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;e381cdc8f8165eb8d1075d921726b4a2&quot;
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Concordia-bootcamps\OrderBeats\orderBeatsTakeaway\src\main\java\com\angus\orderBeats\service\impl" />
+      <recent name="D:\Concordia-bootcamps\OrderBeats\orderBeatsTakeaway\src\main\java\com\angus\orderBeats\service" />
+      <recent name="D:\Concordia-bootcamps\OrderBeats\orderBeatsTakeaway\src\main\java\com\angus\orderBeats\mapper" />
+      <recent name="D:\Concordia-bootcamps\OrderBeats\orderBeatsTakeaway\src\main\resources\backend" />
+      <recent name="D:\Concordia-bootcamps\OrderBeats\orderBeatsTakeaway\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.angus.orderBeats.service.impl" />
+      <recent name="com.angus.orderBeats.service" />
+      <recent name="com.angus.orderBeats.mapper" />
+      <recent name="com.angus.orderBeats.dto" />
+      <recent name="com.angus.orderBeats.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.OrderBeatsApplication">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/orderBeatsTakeaway/backend/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="upload.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/orderBeatsTakeaway/backend/page/demo/upload.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="OrderBeatsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="orderBeatsTakeaway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.angus.orderBeats.OrderBeatsApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.angus.orderBeats.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.OrderBeatsApplication" />
+        <item itemvalue="JavaScript Debug.upload.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a40d385-c689-48e3-be18-e11a527bc1f1" name="Changes" comment="" />
+      <created>1681940153889</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681940153889</updated>
+      <workItem from="1681940155431" duration="9753000" />
+      <workItem from="1681990966634" duration="41864000" />
+      <workItem from="1682100140300" duration="4001000" />
+      <workItem from="1682118914059" duration="19101000" />
+      <workItem from="1682161930053" duration="3030000" />
+      <workItem from="1682166288155" duration="12365000" />
+      <workItem from="1682431292997" duration="249000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
